@@ -153,6 +153,21 @@ http://www.cosmos-fp7.eu/WP2</doap:maintainer>
     
 
 
+    <!-- http://nmrML.org/nmrCV#NFDI4Chem_relevance -->
+
+    <owl:AnnotationProperty rdf:about="http://nmrML.org/nmrCV#NFDI4Chem_relevance">
+        <obo:IAO_0000115 xml:lang="en">This label is to be used to tag all those classes we will need in our NMR ontology.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StroemertP</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#defaultLanguage -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
