@@ -1420,6 +1420,7 @@ Apodization is usually performed by applying a window function to the FID</skos:
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000091">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400213"/>
+        <NFDI4Chem_relevance>current:yes</NFDI4Chem_relevance>
         <rdfs:label xml:lang="en">commercial NMR software</rdfs:label>
     </owl:Class>
     
@@ -7090,7 +7091,9 @@ http://purl.obolibrary.org/obo/CHMO_0001841</skos:editorialNote>
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <NFDI4Chem_relevance>maybe</NFDI4Chem_relevance>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">method</oboInOwl:hasBroadSynonym>
+        <rdfs:comment>This class and all its subclasses are irrelevant for our NMR ontology / context. This might change, if we decided to model the conversion between NMR data formats.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defneed</rdfs:comment>
         <rdfs:label xml:lang="en">data transformation</rdfs:label>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altspcls: process ???</owl:versionInfo>
