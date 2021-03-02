@@ -4,10 +4,12 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX nmrCV: <http://nmrML.org/nmrCV#>
 
-SELECT ?subject ?subject_label ?comment
+SELECT ?subject ?label ?comment
 WHERE { 
 ?subject nmrCV:NFDI4Chem_relevance ?langstr;
-         rdfs:label ?subject_label .
+         rdfs:label ?labelstr .
 BIND (str(?langstr) AS ?comment)
+BIND (str(?labelstr) AS ?label)
+
 }
 ORDER BY ?subject
