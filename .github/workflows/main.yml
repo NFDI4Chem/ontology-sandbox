@@ -28,6 +28,6 @@ jobs:
 
       - name: install apache Jena
         run: | 
-        curl https://mirrors.supportex.net/apache/jena/binaries/apache-jena-3.17.0.tar.gz --output jena.tar.gz
-        tar xfvz jena.tar.gz
-        apache-jena-3.17.0/bin/arq
+          curl https://mirrors.supportex.net/apache/jena/binaries/apache-jena-3.17.0.tar.gz --output jena.tar.gz
+          tar xfvz jena.tar.gz
+          apache-jena-3.17.0/bin/arq
