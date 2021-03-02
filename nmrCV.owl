@@ -1373,6 +1373,8 @@ Apodization is usually performed by applying a window function to the FID</skos:
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000086">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1002007"/>
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400162"/>
+        <NFDI4Chem_relevance xml:lang="en">no
+Comment: this class appears exactly the same again under &quot;NMR spectrum by dimensionality&quot; -&gt; &quot;2D spectrum&quot;</NFDI4Chem_relevance>
         <oboInOwl:hasExactSynonym>JRES spectrum</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">2D J-resolved spectrum</rdfs:label>
     </owl:Class>
@@ -2161,6 +2163,7 @@ The first two axis in the plot represent the ppms along the two acquisition nucl
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:label xml:lang="en">NMR spectrum descriptor</rdfs:label>
     </owl:Class>
     
@@ -2313,6 +2316,8 @@ The first two axis in the plot represent the ppms along the two acquisition nucl
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000188">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000524"/>
+        <NFDI4Chem_relevance xml:lang="en">no
+comment: honestly i can&apos;t do much with this label</NFDI4Chem_relevance>
         <obo:IAO_0000115>a set of peaks that are highly correlated in a series of samples</obo:IAO_0000115>
         <dc:coverage>a feature request by Daniel Jacob inserted at IBP hackathon</dc:coverage>
         <rdfs:label xml:lang="en">cluster of peaks across samples</rdfs:label>
@@ -2333,6 +2338,7 @@ The first two axis in the plot represent the ppms along the two acquisition nucl
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000190">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:label xml:lang="en">pulse parameter</rdfs:label>
     </owl:Class>
     
@@ -3611,6 +3617,7 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:comment>Use Chebi entities here.</rdfs:comment>
         <rdfs:label xml:lang="en">NMR solvent</rdfs:label>
     </owl:Class>
@@ -3621,6 +3628,7 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:comment>Use Chebi entities here.</rdfs:comment>
         <rdfs:label xml:lang="en">NMR buffer</rdfs:label>
     </owl:Class>
@@ -3724,6 +3732,7 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000343">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:label xml:lang="en">data encoding parameter</rdfs:label>
     </owl:Class>
     
@@ -3819,6 +3828,7 @@ The second one, nmrMLproc allows to add and fill in additional sections correspo
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000353">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:label xml:lang="en">software attribute</rdfs:label>
     </owl:Class>
     
@@ -4622,6 +4632,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000457">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tempdef: A sample is a role that is played by an object of interest in an investigation used to obtain generalizable information about the sample source.
    defprov: Daniel Schober</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
@@ -4679,6 +4690,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000496">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000547"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instrument properties that are associated with a value.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000496</oboInOwl:id>
@@ -4758,6 +4770,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000531">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software related to the recording or transformation of spectra.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000531</oboInOwl:id>
@@ -4794,6 +4807,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000548">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000547"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample properties that are associated with a value.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000548</oboInOwl:id>
@@ -4812,6 +4826,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000561">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000011"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checksum is a form of redundancy check, a simple way to protect the integrity of data by detecting errors in data.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000561</oboInOwl:id>
@@ -4899,6 +4914,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000585">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000547"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Details about a person or organization to contact in case of concern or discussion about the file.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000585</oboInOwl:id>
@@ -5042,6 +5058,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000630">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data processing parameter used in the data processing performed on the data file.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000630</oboInOwl:id>
@@ -5166,6 +5183,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000859">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000881"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecules is a fundamental component of a chemical compound that is the smallest part of the compound that can participate in a chemical reaction.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000859</oboInOwl:id>
@@ -5184,6 +5202,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000860">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000881"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound of low molecular weight that is composed of two or more amino acids.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000860</oboInOwl:id>
@@ -5202,6 +5221,8 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000861">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000547"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: It can be interesting later, but mostly NMR is used for structure identification and one does not know exactly or wants to find out by NMR what kind of substance is present. In addition, even if the substance is known, many properties (e.g. isoelectric point) may not be known yet.</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A describable property of a chemical compound.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000861</oboInOwl:id>
@@ -5452,6 +5473,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000882">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000881"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound composed of one or more chains of amino acids in a specific order determined by the base sequence of nucleotides in the DNA coding for the protein.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000882</oboInOwl:id>
@@ -5495,6 +5517,8 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000884">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000547"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: used rather rarely and then mainly in the biomedical or biochemical context</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An nonphysical attribute describing a specific protein.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000884</oboInOwl:id>
@@ -5563,6 +5587,8 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000887">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000547"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: used rather rarely and then mainly in the biomedical or biochemical context</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An nonphysical attribute that can be used to describe a peptide.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000887</oboInOwl:id>
@@ -5711,6 +5737,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1000898">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Something, such as a practice or a product, that is widely recognized or employed, especially because of its excellence.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1000898</oboInOwl:id>
@@ -5984,6 +6011,8 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1001459">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000011"/>
+        <NFDI4Chem_relevance xml:lang="en">no
+Comment: &quot;NMR software data format&quot; gives a good overview of (also older) NMR file formats</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Format of data files.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR:1001459</oboInOwl:id>
@@ -6202,6 +6231,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1001954">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parameters used in the NMR spectrometry acquisition.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value-type:xsd:string</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR</oboInOwl:hasOBONamespace>
@@ -6362,6 +6392,8 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1002007">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000524"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: an assignment of what kind of NMR spectrum it is, i.e. dimensionality etc. might be interesting later, if one wants to search a large database explicitly for it</NFDI4Chem_relevance>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tempdef: A frequency sorted array of the NMR signal frequency components. Nuclei with different resonance frequencies will show up as peaks at different corresponding frequencies in the spectrum, or &apos;lines&apos;.
    def: A NMR spectrum is a set of chemical shifts representing a chemical analysis.
    synonym: NMR spectrum</obo:IAO_0000115>
@@ -6660,6 +6692,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400001">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000463"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: Part of an NMR instrument which is not cardinally important and hence optional / facultative for the proper intended function of the instrument.
    synonym: optional part of NMR instrument
    clsdel: ontologically there is no such universal which characteristic is a possible (!) state of being a part of something...</rdfs:comment>
@@ -6740,6 +6773,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400013">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400011"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: A Computer used for NMR, can be divided into central processing unit (CPU), consisting of instruction, interpretation and arithmetic unit plus fast access memory, and peripheral devices such as bulk data storage and input and output devices (including, via the interface, the spectrometer). Under software control, the computer controls the RF pulses and gradients necessary to acquire data, and process the data to produce spectra or images. Note that devices such as the spectrometer may themselves incorporate small computers.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition computer</rdfs:label>
     </owl:Class>
@@ -6750,6 +6784,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400014">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400011"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: Part of an NMR instrument that detects the signals emitted from a sample. No single probe can perform the full range of experiments, and probes that are designed to perform more than one type of measurement usually suffer from performance compromises. The probe represents a rather fragile “single point of failure” that can render an NMR system completely unusable if the probe is dropped or otherwise damaged. Probes are usually characterised by Sample diameter and Frequency.
    altdef: The instrument that transmits and recieves radiofrequency to and from the NMR sample.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR probe</rdfs:label>
@@ -6761,6 +6796,8 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400015">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400011"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: but is not too important in itself</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: A component of an NMR instrument that controls the activities of the other components.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">console</rdfs:label>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO: same as or part of acquisition computer?</owl:versionInfo>
@@ -6894,6 +6931,7 @@ Whatever your application field ECZS can demonstrate its power.
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400032">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000881"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <oboInOwl:hasExactSynonym>reference compound</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>reference standard</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: The compound that produced the peak used to reference a spectrum during data pre-processing.</rdfs:comment>
@@ -7068,6 +7106,7 @@ http://purl.obolibrary.org/obo/CHMO_0001841</skos:editorialNote>
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400059">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1000463"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: An Instrument which is used to carry out a NMR analysis of some sample.
    synonym: NMR instrument</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR instrument</rdfs:label>
@@ -7137,6 +7176,8 @@ This is a row operation that is applied to the data from each sample and compris
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400068">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: maybe later, when you also want to understand the spectra postprocessing better</NFDI4Chem_relevance>
         <obo:IAO_0000115>A function applied to a FID to increase the signal-to-noise ratio or the resolution.</obo:IAO_0000115>
         <dc:source>http://www.uwyo.edu/wheelernmr/nmr/window_functions.pdf</dc:source>
         <doap:bug-database>https://github.com/nmrML/nmrML/issues/39</doap:bug-database>
@@ -7284,6 +7325,7 @@ This is a row operation that is applied to the data from each sample and compris
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: The nucleus of an element or isotope that is being studied during an NMR analysis. Common NMR requirements include direct 1D and 2D proton-only NMR, direct observation of 13C NMR with 1H decoupling, direct observation of other nuclei such as 19F, 31P, 29Si, 31P, 27Al, and 15N (with or without 1H decoupling), triple resonance NMR (especially inverse triple resonance such as 1H observe, 13C and 15N decouple), and inverse 2D and 3D experiments such as HMQC and HMBC.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition nucleus</rdfs:label>
     </owl:Class>
@@ -7365,6 +7407,7 @@ This is a row operation that is applied to the data from each sample and compris
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400093">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: The unit of measurement of the second dimension of a 2D NMR dataset.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">additional axis unit</rdfs:label>
     </owl:Class>
@@ -7396,6 +7439,8 @@ This is a row operation that is applied to the data from each sample and compris
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400096">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: maybe later, when you also want to understand the spectra postprocessing better</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: A parameter to a window function.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">window function parameter</rdfs:label>
     </owl:Class>
@@ -7560,6 +7605,8 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: I don&apos;t quite know if tags with reference to other (literature) sources is really relevant for us yet.</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: A reference is a label which refers to data elsewhere, as opposed to containing the data itself. Accessing the value that a reference refers to is called dereferencing it. References are fundamental in constructing many data structures and in exchanging information between different parts of programs and databases.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference</rdfs:label>
     </owl:Class>
@@ -7687,6 +7734,8 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400132">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400011"/>
+        <NFDI4Chem_relevance xml:lang="en">maybe
+Comment: actually the type of sampletube used is irrelevant for the spectrum in the end</NFDI4Chem_relevance>
         <obo:IAO_0000115>The sample-tube holds the NMR sample and sits in the NMR probe. It is usually a glass tube of 5-20mm diameter.</obo:IAO_0000115>
         <dc:source>http://en.wikipedia.org/wiki/NMR_tube</dc:source>
         <doap:bug-database>https://github.com/nmrML/nmrML/issues/54</doap:bug-database>
@@ -7958,6 +8007,7 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400185">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400011"/>
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: A magnet which induces a certain frequency (MHz) and which has a certain bore diameter.
    altdef: The NMR signal is a natural physical property of the certain atomic nuclei but it can only be detected with an external magnetic field. A magnet is a fundamental part of an NMR instrument which induces an electromagnetic force field (RF pulse) and by this excites and aligns the spins of the electrons of the NMR acquisition nucleus. It is usually a big (superconducting) electromagnet which is cooled by liquid helium and can be adjusted to a frequency between 200 and 950 MHz. The magnetic field strength is measured in Tesla or Gauss.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR magnet</rdfs:label>
@@ -8090,6 +8140,7 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400196">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400101"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defneed</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR instrument parameter set</rdfs:label>
     </owl:Class>
@@ -8253,6 +8304,7 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400212">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#NMR:1400011"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">def: A NMR sample holder is the part of an NMR instrument, which carries the NMR probe,sample  tube and  the NMR sample.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR sample holder</rdfs:label>
     </owl:Class>
@@ -8724,6 +8776,7 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://nmrML.org/nmrCV#NMR:1400267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data file</rdfs:label>
         <skos:altLabel>file</skos:altLabel>
         <skos:definition>Any data file as generated by some acquisition computer or console.</skos:definition>
@@ -9154,6 +9207,7 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#BFO_0000001"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:label>process</rdfs:label>
     </owl:Class>
     
@@ -9172,6 +9226,7 @@ Line sharpening can be optimized during data acquisition or performed during dat
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#BFO_0000001"/>
+        <NFDI4Chem_relevance xml:lang="en">no</NFDI4Chem_relevance>
         <rdfs:label>quality</rdfs:label>
     </owl:Class>
     
@@ -9192,6 +9247,23 @@ Line sharpening can be optimized during data acquisition or performed during dat
         <rdfs:subClassOf rdf:resource="http://nmrML.org/nmrCV#BFO_0000001"/>
         <rdfs:label>generically dependent continuant</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000016">
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
+        <NFDI4Chem_relevance xml:lang="en">yes</NFDI4Chem_relevance>
+    </rdf:Description>
 </rdf:RDF>
 
 
