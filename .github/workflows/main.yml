@@ -1,0 +1,30 @@
+name: SPARQL Queries
+
+on:
+  # push:
+  #   branches: [ master ]
+  # pull_request:
+  #   branches: [ master ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+  queries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install apache Jena
+        run: | 
+          curl https://mirrors.supportex.net/apache/jena/binaries/apache-jena-3.17.0.tar.gz --output jena.tar.gz
+          tar xfvz jena.tar.gz
+          
+      - name: query nmrCV.owl for relevant terms for NFDI4Chem
+        run: |
+          ./apache-jena-3.17.0/bin/arq --query=queries/relevant_4Chem.rq --data=nmrCV.owl --results=CSV > NFDI4Chem_relevant_terms.csv  
+    
+      - uses: actions/upload-artifact@v2
+        with:
+          name: relevant_term_csv
+          path: NFDI4Chem_relevant_terms.csv
